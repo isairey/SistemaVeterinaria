@@ -1,26 +1,77 @@
 
-<h1>Clínica Veterinária</h1>
+# 🐾 Sistema de Gestión para Clínica Veterinaria
 
-<h2>Funcionalidades</h2>
-<ul>
-<li>Gerenciamento de perfil pessoal</li>
-<li>Proteção de páginas por nível de permissão. Exemplo: o veterinário não pode acessar a página de marcar consulta, no qual é responsabilidade do secretário.</li>
-<li>Gerenciamento de Clientes, Animais e Espécies</li>
-<li>Gerenciamento de Consultas Médicas agendadas, interligado com Animal, Cliente, Espécie e Veterinário</li>
-<li>Na listagem de consultas médicas agendadas, destaque para consultas marcadas para hoje ou amanhã</li>
-<li>Na listagem de consultas médicas realizadas pelo veterinário, destaque para consultas com tratamento encerrado e não encerrado</li>
-<li>Gerenciamento de consultas Médicas realizadas pelo veterinário, bem como tratamento</li>
-<li>Gerenciamento de exames médicos, interligados com consultas médicas</li>
-<li>Gerenciamento de pagamento por consulta médica</li>
-<li>Pesquisa customizada de clientes, consultas médicas, exames e pagamentos</li>
-<li>Recurso de autocomplete em campos de pesquisa</li>
-</ul>
+<p align="center">
+  <img src="https://img.shields.io/badge/Estado-Activo-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Licencia-MIT-yellow?style=for-the-badge">
+</p>
 
-<h2>Tecnologias</h2>
-<ul>
-<li>Arquitetura MVC</li>
-<li>Front-end em HTML, Bootstrap, JavaScript e jQuery</li>
-<li>Utilização de requisições AJAX</li>
-<li>Back-end em PHP, utilizando o framework Laravel</li>
-<li>Banco de Dados MySQL: 15 tabelas foram utilizadas</li>
-</ul>
+<p align="center">
+  <img src="https://img.shields.io/badge/Less-27.7%1D365D?style=for-the-badge&logo=less&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-21.7%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/CSS-19.1%25-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/PHP-18.2%25-777BB4?style=for-the-badge&logo=php&logoColor=white">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Blade-12.8%25-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
+  <img src="https://img.shields.io/badge/Shell-0.4%25-121011?style=for-the-badge&logo=gnu-bash&logoColor=white">
+  <img src="https://img.shields.io/badge/Batchfile-0.1%25-4D4D4D?style=for-the-badge">
+</p>
+
+---
+
+## 🐶 Descripción
+
+Sistema web para la **gestión de clínicas veterinarias**, diseñado para administrar mascotas, propietarios, citas médicas y procesos clínicos.
+
+Este sistema permite llevar un control eficiente de la información médica y administrativa en una interfaz moderna y funcional.
+
+---
+
+## 🚀 Características
+
+- 🐾 Registro de mascotas  
+- 👤 Gestión de propietarios  
+- 📅 Administración de citas  
+- 🩺 Historial clínico  
+- 💊 Control de tratamientos  
+- 📋 Registro de consultas  
+- 📊 Reportes básicos  
+- 🔐 Sistema de autenticación  
+
+---
+
+## 👥 Roles del Sistema
+
+- 👨‍⚕️ Veterinario  
+  - Registro de consultas  
+  - Diagnósticos  
+  - Tratamientos  
+
+- 👨‍💼 Administrador  
+  - Gestión de usuarios  
+  - Control general del sistema  
+
+- 🧑‍💻 Recepcionista  
+  - Registro de clientes  
+  - Agendamiento de citas  
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+- PHP  
+- Blade (Laravel)  
+- JavaScript  
+- CSS / Less  
+- Shell / Scripts Batch  
+
+---
+
+## ⚙️ Instalación
+
+### 1. Clonar el repositorio
+```bash
+git clone https://github.com/isairey/SistemaVeterinaria.git
+cd SistemaVeterinaria
