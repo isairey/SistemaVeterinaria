@@ -1,0 +1,86 @@
+.tabela-veterinario tr > th:first-child, .tabela-veterinario tr > td:first-child{
+	width: 15%;
+}
+.tabela-veterinario tr > th:nth-child(2), .tabela-veterinario tr > td:nth-child(2){
+	width: 10%;
+	text-align: center;
+}
+.tabela-cliente tr > th:nth-child(2), .tabela-cliente tr > td:nth-child(2),
+.tabela-cliente tr > th:nth-child(4), .tabela-cliente tr > td:nth-child(4),
+.tabela-cliente tr > th:nth-child(5), .tabela-cliente tr > td:nth-child(5),
+.tabela-animal tr > th:nth-child(2), .tabela-animal tr > td:nth-child(2),
+.tabela-animal tr > th:nth-child(4), .tabela-animal tr > td:nth-child(4),
+.tabela-animal tr > th:nth-child(5), .tabela-animal tr > td:nth-child(5)
+{
+	width: 11%;
+}
+.tabela-cliente tr > th,.tabela-cliente tr > td{
+	text-align: center;
+}
+.tabela-animal tr > th:nth-child(3),.tabela-animal tr > td:nth-child(3){
+	width: 30%;
+}
+.tabela-animal tr > th:nth-child(6),.tabela-animal tr > td:nth-child(6){
+	width: 5%;
+}
+.erro-campo{
+	border: 3px solid red;
+}
+.textarea-consulta{
+	margin-top: 0.5em;
+}
+.exclui_exame{
+	text-align: center;
+}
+.exame_realizado_consulta{
+	width: 6.7%;
+}
+.spinner{
+	display: none;
+}
+.mostra-spinner{
+	display: block;
+}
+.tabela-pagamentos tbody > tr:last-child{
+	font-size: 22px;
+}
+.total_receber,.quantidade_receber{
+	font-weight: bold;
+}
+.destaquePainel{
+    font-size: 3em;
+    margin-bottom: -0.3em;
+}
+.panel{
+	margin-bottom: 0;
+}
+.panel-green{
+	background-color: #5cb85c;
+}
+.panel-yellow{
+	background-color: #f0ad4e;
+}
+.panel-red{
+	background-color: #d9534f;
+}
+.panel-green, .panel-yellow, .panel-red{
+	color: white;
+}
+.iconePrimary{
+	color: #337ab7;
+}
+.detalhesPainel > a:hover{
+	text-decoration: none;
+}
+.iconeGreen a{
+	color: #5cb85c;
+}
+.iconeYellow a{
+	color: #f0ad4e;
+}
+.iconeRed a{
+	color: #d9534f;
+}
+h1, h2,h3{
+	border-bottom: 1px solid #ccc;
+}
